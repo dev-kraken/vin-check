@@ -1,4 +1,6 @@
 import "./globals.css";
+import Head from 'next/head';
+import Script from 'next/script'
 
 export const metadata = {
   title: "Vin Check Online",
@@ -9,7 +11,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-51GY603RL9"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-51GY603RL9');
+        `}
+      </Script>
       <body>{children}</body>
     </html>
+    
   );
 }

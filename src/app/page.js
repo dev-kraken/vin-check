@@ -12,7 +12,9 @@ import whtisVin from "../assets/images/wht_is_vin.jpg";
 
 export default function Page() {
   const [vinData, setVinData] = useState(null);
+  
   return (
+    
     <main>
       <section className="bg-[#BFDCE5] flex items-center justify-center">
         {/* Main Content */}
