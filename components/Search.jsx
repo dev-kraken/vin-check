@@ -42,7 +42,7 @@ export default function Search({ setVinData }) {
           <input
             type="search"
             id="default-search"
-            className="block uppercase w-full p-4 pr-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#EEEEEE] focus:border-[#3E54AC]"
+            className="block uppercase w-full p-4 pr-10 text-base text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#EEEEEE] focus:border-[#3E54AC]"
             placeholder="Check Your VIN Free..."
             onChange={handleChange}
             value={vinNumber}
