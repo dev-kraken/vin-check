@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-51GY603RL9"
+        src="https://www.googletagmanager.com/gtag/js?id=G-51GY603RL9" 
         strategy="afterInteractive"
       />
       <Script id="google-analytics" strategy="afterInteractive">
@@ -20,8 +20,7 @@ export default function RootLayout({ children }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
-
-          gtag('config', 'G-51GY603RL9');
+          gtag('config', 'G-51GY603RL9', {cookie_flags: 'SameSite=None;Secure'});
         `}
       </Script>
       <body>{children}</body>
