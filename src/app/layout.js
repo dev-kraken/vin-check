@@ -1,11 +1,12 @@
 import "./globals.css";
-import Head from 'next/head';
 import Script from 'next/script'
 
 export const metadata = {
-  title: "Vin Check Online",
+  title: "Vin Check Online Website that provides vehicle history",
   description:
-    "Vin Check Online is a website that provides vehicle history reports for cars, trucks, and motorcycles. The reports provide detailed information about the vehicle's past, including its title history, odometer readings, accident history, and more. Vin Check Online also offers a variety of other services such as vehicle valuation and recall checks. With Vin Check Online, you can make sure you're getting the best deal when buying or selling a used vehicle.",
+    "Quickly and easily check the history of any vehicle to ensure it is safe and reliable. We offer fast and accurate reports that are easy to read and understand.",
+    keywords:
+    "vin lookup	, vin check online, vin number lookup, vin check,free vin check, vin search, vin lookup free,vin number lookup free,vin number check,vin look up, free vin number check,vin number searchm,car vin lookup,vehicle history,vehicle vin lookup,vin search free",
 };
 
 export default function RootLayout({ children }) {

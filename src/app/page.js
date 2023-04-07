@@ -67,9 +67,9 @@ export default function Page() {
         <div className="w-4/6 xl:w-full mx-auto lg:w-full sm:w-full">
           <div className="flex items-center lg:block sm:block xl:block">
             <div className="w-[38%] lg:w-full sm:w-full xl:w-full">
-              <h1 className="text-2xl my-6 font-semibold text-[#3E54AC]">
+              <h2 className="text-2xl my-6 font-semibold text-[#3E54AC]">
                 How to Find the Vehicle's VIN Number
-              </h1>
+              </h2>
               <p className="text-base leading-8	">
                 {" "}
                 1. Check the dashboard: The vehicle identification number (VIN)
@@ -93,9 +93,9 @@ export default function Page() {
           <div className="flex items-center my-14 sm:block">
             <Image className="w-1/3 sm:w-full" src={whtisVin} alt="vinCheck" placeholder="blur" />
             <div>
-              <h1 className="text-2xl mb-3 font-semibold text-[#3E54AC]">
+              <h2 className="text-2xl mb-3 font-semibold text-[#3E54AC]">
                 What is a VIN Number (Vehicle Identification Number)?
-              </h1>
+              </h2>
               <p className="text-base leading-8	">
                 {" "}
                 A Vehicle Identification Number (VIN) is a unique 17-digit code
@@ -113,9 +113,9 @@ export default function Page() {
         <div className="w-4/6 mx-auto lg:w-11/12 sm:w-full border border-dashed border-[#3E54AC] p-8 rounded-2xl">
           <Image src={vinDecoder} alt="vinCheck" placeholder="blur" />
 
-          <h1 className="text-2xl my-6 font-semibold text-[#3E54AC]">
+          <h2 className="text-2xl my-6 font-semibold text-[#3E54AC]">
             How to Decode the Vehicle Identification Number
-          </h1>
+          </h2>
           <p className="text-lg mt-4 leading-8	">
             {" "}
             1. Locate the Vehicle Identification Number (VIN). The VIN is
@@ -143,10 +143,10 @@ export default function Page() {
 
       <section className="py-14 p-3">
         <div className="w-4/6 mx-auto lg:w-full sm:w-full">
-          <h1 className="text-2xl font-semibold text-[#3E54AC]">
+          <h2 className="text-2xl font-semibold text-[#3E54AC]">
             World Manufacturer Identifier (WMI): Country of Origin Character
             Codes
-          </h1>
+          </h2>
           <p className="text-lg leading-8	mt-4">
             {" "}
             The World Manufacturer Identifier (WMI) is a three-character
